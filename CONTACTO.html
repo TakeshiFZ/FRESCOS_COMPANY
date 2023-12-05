@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--TITULO-->
+    <title>CONTACTO</title>
+    <!--LLAMANDO AL CSS-->
+    <link rel="stylesheet" href="css.css">
+    <style>
+        /*MODIFICA LA PARTE DE ABAJO */
+        #parte_abajo{
+            height: 40%;
+        }
+        #caja{
+            border: 5px black solid;
+            border-radius: 15px;
+            border-color: rgb(0, 255, 136);
+            border-style: double;
+            margin: 15%;
+            margin-top: 5%;
+            text-align: center;
+            background-color: rgb(120, 172, 42);
+            color: white;
+        }
+        input{
+            margin: 15px;
+            height: 15px;
+            width: 30%;
+        }
+        /*MODIFICA LA ZONA EN DONDE DICE CONTACTO*/
+        #titulu{
+            border: 5px black solid;
+            border-radius: 15px;
+            border-color: rgb(0, 255, 136);
+            border-style: double;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html">PAGINA PRINCIPAL</a><br><br>
+        <a href="REGISTRARSE.html">REGISTRARSE</a>
+    </div>
+    <div id="parte_arriba">
+        <img src="frescos.jfif" width="150px" height="150px">
+    </div>
+    <div id="caja">
+        <div id="titulu">
+            <h1>CONTACTO</h1>
+        </div>
+        <!--#region AQUI HAY PURO INPUTS-->
+        <label>CORREO ELECTRONICO</label>
+        <input type="email"><br>
+        <label>NOMBRE DE USUARIO</label>
+        <input type="text"><br>
+        <label>TELEFONO</label>
+        <input type="text"><br>
+        <label>DIRECCION</label>
+        <input type="text"><br>
+        <label>CUENTA BANCARIA</label>
+        <input type="text"><br>
+        <!--#endregion-->
+        <!--AREA DE TEXTO-->
+        <textarea name="txarea" id="txarea" cols="60" rows="10">
+            Escriba su asunto
+        </textarea><br>
+        <!--BOTON DE ENVIAR-->
+        <button>ENVIAR</button>
+    </div>
+    <div id="parte_abajo">
+        <a href="CONTACTO.html" style="font-size: 30px;">Contacto</a>
+        <a href="https://www.youtube.com/watch?v=NcUB99T2e48" style="font-size: 30px;">Youtube</a>
+    </div>
+</body>
+</html>

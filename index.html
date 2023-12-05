@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--TITULO-->
+        <title>WWW.FRESCOSCOMPANY.COM</title>
+        <!--LLAMANDO AL CSS-->
+        <link rel="stylesheet" href="css.css">
+        <!--LLAMANCDO AL SCRIPT-->
+        <script src="script.js"></script>
+    </head>
+    <body id="pagina">
+        <!--EL MENU-->
+        <div id="menu">
+            <!--ENLACE A LA PAGINA PRINCIPAL-->
+            <a href="sitio de ventas.html">PAGINA PRINCIPAL</a><br><br>
+            <!--ENLACE A REGISTRARSE-->
+            <a href="REGISTRARSE.html">REGISTRARSE</a>
+        </div>
+        <!--PARTE DE ARRIBA-->
+        <div id="parte_arriba">
+            <!--LOGO DE LA PAGINA-->
+            <img src="frescos.jfif" width="150px" height="150px">
+        </div>
+        <!--ZONA EN DONDE ESTA EL CUADRO DEL PRODUCTO-->
+        <div id="zona_cuadro">
+            <!--PRODUCTO Y EN DONDE DICE CLICK-PROD ESTA LLAMANDO A UN EVENTO DE JAVASCRIPT Y LE PASA EL PARAMETRO DE TIPO DE PRODUCTO-->
+            <div id="cuadro_prod" onclick="clic_prod('ZANAHORIA')">
+                <!--CONTENEDOR DE LA IMAGEN DEL PRODUCTO-->
+                <div id="img_prod">
+                    <!--IMAGEN DEL PRODUCTO-->
+                    <img src="zanahoria.jfif" id="img_img_prod">
+                </div>
+                <!--CONTENEDOR DEL CONTENIDO DEL PRODUCTO-->
+                <div id="cont_prod">
+                    <!--NOMBRE DEL PRODUCTO-->
+                    <a>ZANAHORIA</a>
+                    <!--DESCRIPCION-->
+                    <p>ZANAHORIA NARANJA QUE SABE A ZANAHORIA</p>
+                    <!--PRECIO-->
+                    <p>PRECIO: 350Bs</p>
+                </div>
+            </div>
+             <!--#region LOS DEMAS PRODUCTOS SIGUEN LA MISMA LOGICA-->
+            <div id="cuadro_prod" onclick="clic_prod('TOMATE')">
+                <div id="img_prod">
+                    <img src="tomate.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>TOMATE</a>
+                    <p>TOMATE FRESCO (IGNORA EL BIGOTE) ROJO Y SABROSO. CON 23 HIJOS Y 35 NIETOS</p>
+                    <p>PRECIO: 500Bs</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('PATATAS')">
+                <div id="img_prod">
+                    <img src="patata.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>PATATAS</a>
+                    <p>FAMILIA DE PATATAS. FRITA AL PADRE O HIERVE A LOS NIÑOS</p>
+                    <p>PRECIO: 400Bs LA FAMILIA</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('LECHUGA')">
+                <div id="img_prod">
+                    <img src="lechuga.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>LECHUGA</a>
+                    <p>LECHUGA VERDE QUE QUEDA BIEN EN UNA ENSALADA O EN UN ENTORNO LABORAL SIN PAGA</p>
+                    <p>PRECIO: 300Bs</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('PIÑA')">
+                <div id="img_prod">
+                    <img src="PINA.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>PIÑA</a>
+                    <p>PIÑA CON GANAS DE VIVIR LA VIDA HASTA QUE SE LA COMAN</p>
+                    <p>PRECIO: 450Bs / 500Bs con gafas incluidas</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('MANZANA')">
+                <div id="img_prod">
+                    <img src="kiwi.jpg" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>KIWI</a>
+                    <p>DELICIOSO KIWI RICO EN AGUA, FIBRA, POTASIO, BETACAROTENO (LO QUE SEA QUE SEA ESO), VITAMINA C, Y ETC</p>
+                    <p>PRECIO: 650Bs</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('BANANA')">
+                <div id="img_prod">
+                    <img src="banana.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>BANANA</a>
+                    <p>BANANA AMARILLA RICA. CON TRES MANSIONES, CADA UNA CON PISCINA Y CANCHA, TIENE JET PRIVADO Y ES DUEÑO DE 5 EMPRESAS <br> Y EL MAYOR ACCIONISTA DE FRESCOS COMPANY (POR ESA RAZON LO ESTAMOS VENDIENDO, PARA QUEDARNOS CON SUS ACCIONES)</p>
+                    <p>PRECIO: 2500Bs / 5000Bs con su silencio incluido</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('CEBOLLA')">
+                <div id="img_prod">
+                    <img src="cebolla.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>CEBOLLA</a>
+                    <p>CEBOLLA CON ESCOPETA. LA ESCOPETA ES PARA QUE TENGAS UNA RAZON DE VERDAD PARA LLORAR</p>
+                    <p>PRECIO: 750Bs / 1000Bs con escopeta incluida</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('LIMA')">
+                <div id="img_prod">
+                    <img src="lima.png" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>LIMA</a>
+                    <p>DELICIOSA LIMA CON SABOR A LIMA. COMESTIBLE Y QUE SE PUEDE COMER. UBICADA EN PERU</p>
+                    <p>PRECIO: 5Bs</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('MANDARINA')">
+                <div id="img_prod">
+                    <img src="mandarina.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>MANDARINA</a>
+                    <p>MANDARINA CON ESTUDIOS Y MUCHA EXPERIENCIA LABORAL. GRADUADO DE 20 CARRERAS DISTINTAS <BR> Y HABLA 17 IDIOMAS DISTINTOS INCLUIDO EL CHINO MANDARIN</p>
+                    <p>PRECIO: 950Bs</p>
+                </div>
+            </div>
+            <div id="cuadro_prod" onclick="clic_prod('MANZANA')">
+                <div id="img_prod">
+                    <img src="manzana.jfif" id="img_img_prod">
+                </div>
+                <div id="cont_prod">
+                    <a>MANZANA</a>
+                    <p>MANZANA TAN BONITA, TAN QUERIDA, Y TAN BUSCADA POR 238 PAISES Y ACUSADA DE 1893 CRIMENES DISTINTOS. ENTRE ELLOS GENOCIDIO, DICTADURA, <BR> ASESINATOS EN SERIE, ASESINATOS EN PELICULA, ROBO ARMADO, ROBO DESARMADO, ESTAFA PIRAMIDAL, <br> SECUESTRO DE PERSONAS, SECUESTRO DE BANANAS, ETC</p>
+                    <p>PRECIO: 1000Bs por cualquier información / 500000Bs si lo captura vivo / 300000Bs si lo captura muerto</p>
+                </div>
+            </div>
+            <!-- #endregion-->
+        </div>
+        <!--PARTE DE ABAJO-->
+        <div id="parte_abajo">
+            <!--ENLACE A CONTACTO-->
+            <a href="CONTACTO.html" style="font-size: 30px;">Contacto</a>
+            <!--ENLACE A YOUTUBE-->
+            <a href="https://www.youtube.com/watch?v=NcUB99T2e48" style="font-size: 30px;">Youtube</a>
+        </div>
+    </body>
+</html>

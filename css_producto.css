@@ -1,0 +1,11 @@
+/*BOTON DE COMPRAR*/
+#comprar{
+    color: wheat;width: 100px;
+    height: 50px;
+    background-color: green;
+    margin: 20px;
+}
+/*MODIFICA LA PARTE DE ABAJO SOLO PARA LAS PAGINAS DE PRODUCTOS*/
+#parte_abajo{
+    height: 77%;
+}

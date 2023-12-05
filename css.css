@@ -1,0 +1,86 @@
+/* #region PRODUCTO*/
+#zona_cuadro{
+    padding: 50px;
+}
+#cuadro_prod{
+    display: flex;
+    align-items: center;
+    border: 1px black solid;
+    margin: 5px;
+    cursor: pointer;
+}
+#cuadro_prod:hover{
+    background-color: rgb(146, 211, 50);
+}
+#img_img_prod{
+    width: 250px;
+    height: 250px;
+}
+#img_prod{
+    padding: 0px;
+}
+#cont_prod{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: white 2px 2px 1px;
+}
+/* #endregion */
+/* #region PARTE DE ARRIBA*/
+#parte_arriba{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(233, 233, 229);
+    text-align: center;
+}
+/* #endregion */
+/* #region MENU*/
+#menu{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(72, 97, 36);
+    margin-left: 90%;
+    position: fixed;
+    padding-left: 10px;
+    padding-top: 150px;
+}
+#menu a{
+    color: pink;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: palevioletred;
+}
+/* #endregion */
+/* #region PIE DE PAGINA*/
+#parte_abajo{
+    width: 100%;
+    height: 23%;
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#parte_abajo a{
+    color: orange;
+    text-decoration: none;
+    margin-left: 15px;
+}
+#parte_abajo a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+/* #endregion */
+body{
+    background-color: rgb(255, 201, 101);
+}
+/*BOTONES*/
+button{
+    color: wheat;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    margin: 20px;
+    cursor: pointer;
+}
