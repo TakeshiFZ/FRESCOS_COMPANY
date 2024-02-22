@@ -10,5 +10,5 @@ window.addEventListener("load", function (event) {
     alert("¡Todos los recursos terminaron de cargar!");
   });
 window.addEventListener("beforeunload", function (event) {
-    alert("¿Tas seguro de querer salir?");
-  });
+    event.returnValue = "¿Tas seguro de salir?"
+  }); 
