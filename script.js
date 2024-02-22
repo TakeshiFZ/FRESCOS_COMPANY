@@ -12,5 +12,4 @@ window.addEventListener("load", function (event) {
 window.addEventListener("beforeunload", function (event) {
     var mensaje = "¿Tas seguro de salir?"
     event.returnValue = mensaje
-    return mensaje
   }); 
