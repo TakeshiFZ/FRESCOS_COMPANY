@@ -7,10 +7,10 @@ function compra(prod){
     alert("HA COMPRADO " + prod)
 }
 window.addEventListener("load", function (event) {
-    alert("¡Todos los recursos terminaron de cargar!");
+    alert("¡Todos los recursos terminaron de cargar!")
   });
 window.addEventListener("beforeunload", function (event) {
     var mensaje = "¿Tas seguro de salir?"
-    event.return = mensaje
+    event.returnValue = mensaje
     return mensaje
   }); 
