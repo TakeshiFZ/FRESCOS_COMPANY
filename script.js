@@ -7,9 +7,9 @@ function compra(prod){
     alert("HA COMPRADO " + prod)
 }
 window.addEventListener("load", function (event) {
-    alert("'¡Todos los recursos terminaron de cargar!");
+    alert("¡Todos los recursos terminaron de cargar!");
   });
 window.addEventListener("beforeunload", function (event) {
-    alert("'¿Tas seguro de querer salir?");
+    alert("¿Tas seguro de querer salir?");
   });
 beforeunload
