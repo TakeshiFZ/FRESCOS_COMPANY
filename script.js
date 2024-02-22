@@ -12,4 +12,3 @@ window.addEventListener("load", function (event) {
 window.addEventListener("beforeunload", function (event) {
     alert("¿Tas seguro de querer salir?");
   });
-beforeunload
