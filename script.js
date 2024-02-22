@@ -10,7 +10,7 @@ window.addEventListener("load", function (event) {
     alert("¡Todos los recursos terminaron de cargar!");
   });
 window.addEventListener("beforeunload", function (event) {
-    const mensaje = '¿Tas seguro de salir?'
-    event.returnValue = mensaje
+    var mensaje = "¿Tas seguro de salir?"
+    event.return = mensaje
     return mensaje
   }); 
