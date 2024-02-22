@@ -10,5 +10,5 @@ window.addEventListener("load", function (event) {
     alert("¡Todos los recursos terminaron de cargar!")
   });
 window.addEventListener("beforeunload", function (event) {
-    event.returnValue
+    event.returnValue = ':v'
   }); 
